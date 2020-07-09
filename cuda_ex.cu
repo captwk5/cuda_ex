@@ -1,10 +1,10 @@
 #include "cuda_ex.hpp"
 
 #define N 10000000
-#define MN 16
+#define MN 32
 
-#define SIZE 21904
-#define RCSIZE 148
+#define RCSIZE 224
+#define SIZE RCSIZE * RCSIZE
 
 __global__ void add_gpu(int n, float *x, float *y, float *z){
     int index = threadIdx.x;
@@ -22,16 +22,16 @@ __host__ void add_cpu(int n, float *x, float *y, float *z){
 }
 
 __global__ void MatAdd(float *A, float *B, float *C){
-    // threadIdx : 블록 안에 memory idx
-    // blockIdx : 메모리를 담는 단위
+    // blockDim : Block Size
+    // threadIdx : Block Size 에 대한 Thread Index
+    // blockIdx : Block 갯수에 대한 Index
     int COL = blockIdx.x * blockDim.x + threadIdx.x;
     int ROW = blockIdx.y * blockDim.y + threadIdx.y;
 
-    // printf("BD : %d , BI : %d , TH : %d\n", blockDim.x, blockIdx.x, threadIdx.x);
+    // printf("BD : %d , BI : %d , TH : %d = %d\n", blockDim.x, blockIdx.x, threadIdx.x, COL);
     // printf("RBD : %d , RBI : %d , RTH : %d\n", blockDim.y, blockIdx.y, threadIdx.y);
 
     // float tmpSum = 0;
-
     // if (ROW < MN && COL < MN){
     //     // printf("%f\n", A[ROW * MN + COL]);
 
@@ -42,6 +42,7 @@ __global__ void MatAdd(float *A, float *B, float *C){
     // }else{
     //     // printf("??");
     // }
+    
     C[ROW * RCSIZE + COL] = A[ROW * RCSIZE + COL] + B[ROW * RCSIZE + COL];
 }
 
@@ -73,50 +74,50 @@ void Cuda_Computing::test(){
     int blockSize = 256;
     int numBlocks = (N + blockSize - 1) / blockSize;
 
-    // float *x, *y, *z;
-    // cudaMallocManaged(&x, N * sizeof(float));
-    // cudaMallocManaged(&y, N * sizeof(float));
-    // cudaMallocManaged(&z, N * sizeof(float));
+    float *x, *y, *z;
+    cudaMallocManaged(&x, N * sizeof(float));
+    cudaMallocManaged(&y, N * sizeof(float));
+    cudaMallocManaged(&z, N * sizeof(float));
 
-    // float *xc, *yc, *zc;
-    // xc = new float[N];
-    // yc = new float[N];
-    // zc = new float[N];
+    float *xc, *yc, *zc;
+    xc = new float[N];
+    yc = new float[N];
+    zc = new float[N];
 
-    // for (int i = 0; i < N; i++) {
-        // x[i] = 1.0f;
-        // y[i] = 2.0f;
+    for (int i = 0; i < N; i++) {
+        x[i] = 1.0f;
+        y[i] = 2.0f;
 
-        // xc[i] = 1.0f;
-        // yc[i] = 2.0f;
-    // }
+        xc[i] = 1.0f;
+        yc[i] = 2.0f;
+    }
 
     cudaEventCreate(&start);
     cudaEventCreate(&stop);
 
-    // cudaEventRecord( start, 0 );
+    cudaEventRecord( start, 0 );
 
-    // add_gpu<<<numBlocks, blockSize>>>(N, x, y, z);
+    add_gpu<<<numBlocks, blockSize>>>(N, x, y, z);
     
-    // cudaEventRecord( stop, 0 );
-    // cudaEventSynchronize( stop );
-    // cudaEventElapsedTime( &time, start, stop );
+    cudaEventRecord( stop, 0 );
+    cudaEventSynchronize( stop );
+    cudaEventElapsedTime( &time, start, stop );
 
-    // cudaDeviceSynchronize();
+    cudaDeviceSynchronize();
 
-    // cout << "GPU : " << time << endl;
-    // cout << z[0] << " - " << z[N - 1] << endl;
+    cout << "GPU : " << time << endl;
+    cout << z[0] << " - " << z[N - 1] << endl;
 
-    // cudaEventRecord( start, 0 );
+    cudaEventRecord( start, 0 );
 
-    // add_cpu(N, xc, yc, zc);
+    add_cpu(N, xc, yc, zc);
 
-    // cudaEventRecord( stop, 0 );
-    // cudaEventSynchronize( stop );
-    // cudaEventElapsedTime( &time, start, stop );
+    cudaEventRecord( stop, 0 );
+    cudaEventSynchronize( stop );
+    cudaEventElapsedTime( &time, start, stop );
 
-    // cout << "CPU : " << time << endl;
-    // cout << zc[0] << " - " << zc[N - 1] << endl;
+    cout << "CPU : " << time << endl;
+    cout << zc[0] << " - " << zc[N - 1] << endl;
 
     vector<float> hA(SIZE);
     vector<float> hB(SIZE);
@@ -136,20 +137,9 @@ void Cuda_Computing::test(){
     dA.set(&hA[0], SIZE);
     dB.set(&hB[0], SIZE);
 
-    dim3 threadsPerBlock(MN, MN); // 32
-    // dim3 threadsPerBlock(1, 1); // 32
+    dim3 threadsPerBlock(MN, MN); // Block Size
     // dim3 numBlocks_(SIZE / threadsPerBlock.x, SIZE / threadsPerBlock.y);
-    dim3 numBlocks_(512, 512);
-
-    // if (MN * MN > 512){
-    //     cout << SIZE << endl;
-    //     threadsPerBlock.x = 512;
-    //     threadsPerBlock.y = 512;
-    //     numBlocksMat.x = ceil(double(MN) / double(threadsPerBlock.x));
-    //     numBlocksMat.y = ceil(double(MN) / double(threadsPerBlock.y));
-
-    //     cout << numBlocksMat.x << endl;
-    // }
+    dim3 numBlocks_(7, 7);
 
     cudaEventRecord( start, 0 );
     MatAdd<<<numBlocks_, threadsPerBlock>>>(dA.getData(), dB.getData(), dC.getData());
@@ -185,13 +175,13 @@ void Cuda_Computing::test(){
     cudaEventDestroy( start );
     cudaEventDestroy( stop );
 
-    // cudaFree(x);
-    // cudaFree(y);
-    // cudaFree(z);
+    cudaFree(x);
+    cudaFree(y);
+    cudaFree(z);
 
-    // delete[] xc;
-    // delete[] yc;
-    // delete[] zc;
+    delete[] xc;
+    delete[] yc;
+    delete[] zc;
 
     delete[] hC;
 }

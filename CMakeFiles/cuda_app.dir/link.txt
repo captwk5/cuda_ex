@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/cuda_app.dir/main.cpp.o CMakeFiles/cuda_app.dir/cuda_ex.cu.o CMakeFiles/cuda_app.dir/cmake_device_link.o  -o cuda_app  -L/usr/local/cuda/targets/x86_64-linux/lib/stubs  -L/usr/local/cuda/targets/x86_64-linux/lib -lcudadevrt -lcudart_static -lrt -lpthread -ldl 

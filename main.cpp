@@ -13,15 +13,15 @@ using namespace std;
 
 int main(int argc, char** argv){
 
-    if(COMPILER) {
-        cout << "NVCC Compiler" << endl;
+    // if(COMPILER) {
+        // cout << "NVCC Compiler" << endl;
 
-        Cuda_Computing cuda_c;
-        cuda_c.test();
-    }
-    else{
-        cout << "Not NVCC" << endl;
-    }
+    Cuda_Computing cuda_c;
+    cuda_c.test();
+    // }
+    // else{
+    //     cout << "Not NVCC" << endl;
+    // }
 
     return 0;
 }
