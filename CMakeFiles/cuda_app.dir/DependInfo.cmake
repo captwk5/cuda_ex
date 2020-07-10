@@ -5,22 +5,24 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CUDA
-  "/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/cuda_ex.cu" "/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/cuda_app.dir/cuda_ex.cu.o"
+  "/home/wkh/deep_learning/cuda_ex/cuda_ex.cu" "/home/wkh/deep_learning/cuda_ex/CMakeFiles/cuda_app.dir/cuda_ex.cu.o"
   )
 set(CMAKE_CUDA_COMPILER_ID "NVIDIA")
 
 # The include file search paths:
 set(CMAKE_CUDA_TARGET_INCLUDE_PATH
   "/usr/local/cuda/include"
+  "/usr/local/include/opencv4"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/main.cpp" "/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/cuda_app.dir/main.cpp.o"
+  "/home/wkh/deep_learning/cuda_ex/main.cpp" "/home/wkh/deep_learning/cuda_ex/CMakeFiles/cuda_app.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/local/cuda/include"
+  "/usr/local/include/opencv4"
   )
 
 # Targets to which this target links.

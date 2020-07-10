@@ -8,6 +8,8 @@ INCLUDE (FindCUDA)
 
 SET ( CMAKE_INSTALL_PREFIX /usr/local/cuda-10.2/bin )
 
+SET ( OpenCV_DIR /usr/local/lib/cmake/opencv4 )
+
 SET ( SRC
         main.cpp
         cuda_ex.cu
@@ -19,8 +21,12 @@ SET ( SRC
 
 FIND_PACKAGE(CUDA REQUIRED)
 
+FIND_PACKAGE(OpenCV REQUIRED)
+
 include_directories( ${CUDA_INCLUDE_DIRS} )
 
 ADD_EXECUTABLE( ${MODEL} ${SRC} )
 
 set_property(TARGET ${MODEL} PROPERTY CUDA_STANDARD 11)
+
+TARGET_LINK_LIBRARIES (${MODEL} ${OpenCV_LIBS})

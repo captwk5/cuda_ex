@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/3.10.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/wkh/deep_learning/cuda_ex/CMakeFiles/3.10.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/wkh/deep_learning/cuda_ex/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp
+Change Dir: /home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9c885/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9c885.dir/build.make CMakeFiles/cmTC_9c885.dir/build
-make[1]: Entering directory '/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9c885.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_9c885.dir/testCCompiler.c.o   -c /home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_9c885
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c885.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_9c885.dir/testCCompiler.c.o  -o cmTC_9c885 
-make[1]: Leaving directory '/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_fb65b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fb65b.dir/build.make CMakeFiles/cmTC_fb65b.dir/build
+make[1]: Entering directory '/home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fb65b.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_fb65b.dir/testCCompiler.c.o   -c /home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_fb65b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb65b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_fb65b.dir/testCCompiler.c.o  -o cmTC_fb65b 
+make[1]: Leaving directory '/home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp
+Change Dir: /home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_63fd6/fast"
-/usr/bin/make -f CMakeFiles/cmTC_63fd6.dir/build.make CMakeFiles/cmTC_63fd6.dir/build
-make[1]: Entering directory '/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_63fd6.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_63fd6.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_63fd6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63fd6.dir/link.txt --verbose=1
-/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_63fd6.dir/CMakeCCompilerABI.c.o  -o cmTC_63fd6 
+Run Build Command:"/usr/bin/make" "cmTC_ac4cf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ac4cf.dir/build.make CMakeFiles/cmTC_ac4cf.dir/build
+make[1]: Entering directory '/home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ac4cf.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ac4cf.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_ac4cf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac4cf.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_ac4cf.dir/CMakeCCompilerABI.c.o  -o cmTC_ac4cf 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -61,24 +61,24 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/tbb/lib/intel64/gcc4.8/:/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/tbb/lib/intel64/gcc4.8/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_63fd6' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccODmUeu.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_63fd6 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/tbb/lib/intel64/gcc4.8 -L/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/tbb/lib/intel64/gcc4.8 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_63fd6.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_63fd6' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ac4cf' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCeu1ih.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ac4cf /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/tbb/lib/intel64/gcc4.8 -L/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/tbb/lib/intel64/gcc4.8 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_ac4cf.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ac4cf' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_63fd6/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_63fd6.dir/build.make CMakeFiles/cmTC_63fd6.dir/build]
-  ignore line: [make[1]: Entering directory '/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_63fd6.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_63fd6.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_63fd6]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63fd6.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_63fd6.dir/CMakeCCompilerABI.c.o  -o cmTC_63fd6 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_ac4cf/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_ac4cf.dir/build.make CMakeFiles/cmTC_ac4cf.dir/build]
+  ignore line: [make[1]: Entering directory '/home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_ac4cf.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_ac4cf.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_ac4cf]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac4cf.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_ac4cf.dir/CMakeCCompilerABI.c.o  -o cmTC_ac4cf ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -90,13 +90,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/tbb/lib/intel64/gcc4.8/:/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/tbb/lib/intel64/gcc4.8/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_63fd6' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccODmUeu.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_63fd6 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/tbb/lib/intel64/gcc4.8 -L/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/tbb/lib/intel64/gcc4.8 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_63fd6.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ac4cf' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCeu1ih.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ac4cf /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/tbb/lib/intel64/gcc4.8 -L/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/tbb/lib/intel64/gcc4.8 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_ac4cf.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccODmUeu.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccCeu1ih.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -115,7 +115,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_63fd6] ==> ignore
+    arg [cmTC_ac4cf] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -129,7 +129,7 @@ Parsed C implicit link information from above output:
     arg [-L/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/tbb/lib/intel64/gcc4.8] ==> dir [/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/tbb/lib/intel64/gcc4.8]
     arg [-L/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/tbb/lib/intel64/gcc4.8] ==> dir [/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/tbb/lib/intel64/gcc4.8]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_63fd6.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_ac4cf.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -161,17 +161,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp
+Change Dir: /home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3b612/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3b612.dir/build.make CMakeFiles/cmTC_3b612.dir/build
-make[1]: Entering directory '/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3b612.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_3b612.dir/feature_tests.c.o   -c /home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/feature_tests.c
-Linking C executable cmTC_3b612
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b612.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3b612.dir/feature_tests.c.o  -o cmTC_3b612 
-make[1]: Leaving directory '/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_5915f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5915f.dir/build.make CMakeFiles/cmTC_5915f.dir/build
+make[1]: Entering directory '/home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5915f.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_5915f.dir/feature_tests.c.o   -c /home/wkh/deep_learning/cuda_ex/CMakeFiles/feature_tests.c
+Linking C executable cmTC_5915f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5915f.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5915f.dir/feature_tests.c.o  -o cmTC_5915f 
+make[1]: Leaving directory '/home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -181,17 +181,17 @@ make[1]: Leaving directory '/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp
+Change Dir: /home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3a29d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3a29d.dir/build.make CMakeFiles/cmTC_3a29d.dir/build
-make[1]: Entering directory '/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3a29d.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_3a29d.dir/feature_tests.c.o   -c /home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/feature_tests.c
-Linking C executable cmTC_3a29d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a29d.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3a29d.dir/feature_tests.c.o  -o cmTC_3a29d 
-make[1]: Leaving directory '/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_9c958/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9c958.dir/build.make CMakeFiles/cmTC_9c958.dir/build
+make[1]: Entering directory '/home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9c958.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_9c958.dir/feature_tests.c.o   -c /home/wkh/deep_learning/cuda_ex/CMakeFiles/feature_tests.c
+Linking C executable cmTC_9c958
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c958.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_9c958.dir/feature_tests.c.o  -o cmTC_9c958 
+make[1]: Leaving directory '/home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -201,17 +201,17 @@ make[1]: Leaving directory '/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp
+Change Dir: /home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_17e1c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_17e1c.dir/build.make CMakeFiles/cmTC_17e1c.dir/build
-make[1]: Entering directory '/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_17e1c.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_17e1c.dir/feature_tests.c.o   -c /home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/feature_tests.c
-Linking C executable cmTC_17e1c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17e1c.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_17e1c.dir/feature_tests.c.o  -o cmTC_17e1c 
-make[1]: Leaving directory '/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_04267/fast"
+/usr/bin/make -f CMakeFiles/cmTC_04267.dir/build.make CMakeFiles/cmTC_04267.dir/build
+make[1]: Entering directory '/home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_04267.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_04267.dir/feature_tests.c.o   -c /home/wkh/deep_learning/cuda_ex/CMakeFiles/feature_tests.c
+Linking C executable cmTC_04267
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04267.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_04267.dir/feature_tests.c.o  -o cmTC_04267 
+make[1]: Leaving directory '/home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -219,30 +219,30 @@ make[1]: Leaving directory '/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp
+Change Dir: /home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1e3fd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1e3fd.dir/build.make CMakeFiles/cmTC_1e3fd.dir/build
-make[1]: Entering directory '/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_1e3fd.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_1e3fd.dir/testCXXCompiler.cxx.o -c /home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_1e3fd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e3fd.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_1e3fd.dir/testCXXCompiler.cxx.o  -o cmTC_1e3fd 
-make[1]: Leaving directory '/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_c658c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c658c.dir/build.make CMakeFiles/cmTC_c658c.dir/build
+make[1]: Entering directory '/home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c658c.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_c658c.dir/testCXXCompiler.cxx.o -c /home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_c658c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c658c.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_c658c.dir/testCXXCompiler.cxx.o  -o cmTC_c658c 
+make[1]: Leaving directory '/home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp
+Change Dir: /home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bbb29/fast"
-/usr/bin/make -f CMakeFiles/cmTC_bbb29.dir/build.make CMakeFiles/cmTC_bbb29.dir/build
-make[1]: Entering directory '/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_bbb29.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_bbb29.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_bbb29
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bbb29.dir/link.txt --verbose=1
-/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_bbb29.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_bbb29 
+Run Build Command:"/usr/bin/make" "cmTC_a3d84/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a3d84.dir/build.make CMakeFiles/cmTC_a3d84.dir/build
+make[1]: Entering directory '/home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a3d84.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_a3d84.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_a3d84
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3d84.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_a3d84.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a3d84 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -254,24 +254,24 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/tbb/lib/intel64/gcc4.8/:/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/tbb/lib/intel64/gcc4.8/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_bbb29' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccsyMZeh.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_bbb29 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/tbb/lib/intel64/gcc4.8 -L/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/tbb/lib/intel64/gcc4.8 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_bbb29.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_bbb29' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a3d84' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTgcXf9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a3d84 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/tbb/lib/intel64/gcc4.8 -L/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/tbb/lib/intel64/gcc4.8 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_a3d84.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a3d84' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_bbb29/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_bbb29.dir/build.make CMakeFiles/cmTC_bbb29.dir/build]
-  ignore line: [make[1]: Entering directory '/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_bbb29.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_bbb29.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_bbb29]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bbb29.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_bbb29.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_bbb29 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_a3d84/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_a3d84.dir/build.make CMakeFiles/cmTC_a3d84.dir/build]
+  ignore line: [make[1]: Entering directory '/home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_a3d84.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_a3d84.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_a3d84]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3d84.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_a3d84.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a3d84 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -283,13 +283,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/tbb/lib/intel64/gcc4.8/:/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/tbb/lib/intel64/gcc4.8/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_bbb29' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccsyMZeh.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_bbb29 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/tbb/lib/intel64/gcc4.8 -L/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/tbb/lib/intel64/gcc4.8 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_bbb29.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a3d84' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTgcXf9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a3d84 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/tbb/lib/intel64/gcc4.8 -L/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/tbb/lib/intel64/gcc4.8 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_a3d84.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccsyMZeh.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccTgcXf9.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -308,7 +308,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_bbb29] ==> ignore
+    arg [cmTC_a3d84] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -322,7 +322,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/tbb/lib/intel64/gcc4.8] ==> dir [/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/tbb/lib/intel64/gcc4.8]
     arg [-L/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/tbb/lib/intel64/gcc4.8] ==> dir [/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/tbb/lib/intel64/gcc4.8]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_bbb29.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_a3d84.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -350,17 +350,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp
+Change Dir: /home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8759e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8759e.dir/build.make CMakeFiles/cmTC_8759e.dir/build
-make[1]: Entering directory '/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_8759e.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_8759e.dir/feature_tests.cxx.o -c /home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_8759e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8759e.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_8759e.dir/feature_tests.cxx.o  -o cmTC_8759e 
-make[1]: Leaving directory '/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_57f2d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_57f2d.dir/build.make CMakeFiles/cmTC_57f2d.dir/build
+make[1]: Entering directory '/home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_57f2d.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_57f2d.dir/feature_tests.cxx.o -c /home/wkh/deep_learning/cuda_ex/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_57f2d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57f2d.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_57f2d.dir/feature_tests.cxx.o  -o cmTC_57f2d 
+make[1]: Leaving directory '/home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -423,17 +423,17 @@ make[1]: Leaving directory '/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp
+Change Dir: /home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e9db7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e9db7.dir/build.make CMakeFiles/cmTC_e9db7.dir/build
-make[1]: Entering directory '/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_e9db7.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_e9db7.dir/feature_tests.cxx.o -c /home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_e9db7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9db7.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_e9db7.dir/feature_tests.cxx.o  -o cmTC_e9db7 
-make[1]: Leaving directory '/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_4cb3c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4cb3c.dir/build.make CMakeFiles/cmTC_4cb3c.dir/build
+make[1]: Entering directory '/home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4cb3c.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_4cb3c.dir/feature_tests.cxx.o -c /home/wkh/deep_learning/cuda_ex/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_4cb3c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4cb3c.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_4cb3c.dir/feature_tests.cxx.o  -o cmTC_4cb3c 
+make[1]: Leaving directory '/home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -496,17 +496,17 @@ make[1]: Leaving directory '/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp
+Change Dir: /home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1a274/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1a274.dir/build.make CMakeFiles/cmTC_1a274.dir/build
-make[1]: Entering directory '/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_1a274.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_1a274.dir/feature_tests.cxx.o -c /home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_1a274
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a274.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_1a274.dir/feature_tests.cxx.o  -o cmTC_1a274 
-make[1]: Leaving directory '/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_54eba/fast"
+/usr/bin/make -f CMakeFiles/cmTC_54eba.dir/build.make CMakeFiles/cmTC_54eba.dir/build
+make[1]: Entering directory '/home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_54eba.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_54eba.dir/feature_tests.cxx.o -c /home/wkh/deep_learning/cuda_ex/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_54eba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54eba.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_54eba.dir/feature_tests.cxx.o  -o cmTC_54eba 
+make[1]: Leaving directory '/home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -569,17 +569,17 @@ make[1]: Leaving directory '/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp
+Change Dir: /home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_76953/fast"
-/usr/bin/make -f CMakeFiles/cmTC_76953.dir/build.make CMakeFiles/cmTC_76953.dir/build
-make[1]: Entering directory '/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_76953.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_76953.dir/feature_tests.cxx.o -c /home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_76953
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76953.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_76953.dir/feature_tests.cxx.o  -o cmTC_76953 
-make[1]: Leaving directory '/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_910f0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_910f0.dir/build.make CMakeFiles/cmTC_910f0.dir/build
+make[1]: Entering directory '/home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_910f0.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_910f0.dir/feature_tests.cxx.o -c /home/wkh/deep_learning/cuda_ex/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_910f0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_910f0.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_910f0.dir/feature_tests.cxx.o  -o cmTC_910f0 
+make[1]: Leaving directory '/home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -678,7 +678,7 @@ The output was:
 
 Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "a.out"
 
-The CUDA compiler identification is NVIDIA, found in "/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/3.10.2/CompilerIdCUDA/a.out"
+The CUDA compiler identification is NVIDIA, found in "/home/wkh/deep_learning/cuda_ex/CMakeFiles/3.10.2/CompilerIdCUDA/a.out"
 
 Parsed CUDA nvcc implicit link information from above output:
   found 'PATH=' string: [/usr/local/cuda/bin/../nvvm/bin:/usr/local/cuda/bin:/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/bin/intel64:/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/bin:/home/wkh/anaconda3/envs/wkvenv/bin:/home/wkh/anaconda3/condabin:/home/wkh/.vscode-server/bin/cd9ea6488829f560dc949a8b2fb789f3cdc05f5d/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda/bin:/usr/local/cuda/bin]
@@ -774,36 +774,36 @@ Parsed CUDA nvcc include information from above output:
 
 
 Determining if the CUDA compiler works passed with the following output:
-Change Dir: /home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp
+Change Dir: /home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_01b9c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_01b9c.dir/build.make CMakeFiles/cmTC_01b9c.dir/build
-make[1]: Entering directory '/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp'
-Building CUDA object CMakeFiles/cmTC_01b9c.dir/main.cu.o
-/usr/local/cuda/bin/nvcc     -x cu -c /home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp/main.cu -o CMakeFiles/cmTC_01b9c.dir/main.cu.o
-Linking CUDA device code CMakeFiles/cmTC_01b9c.dir/cmake_device_link.o
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01b9c.dir/dlink.txt --verbose=1
-/usr/local/cuda/bin/nvcc     -Xcompiler=-fPIC -Wno-deprecated-gpu-targets -shared -dlink CMakeFiles/cmTC_01b9c.dir/main.cu.o -o CMakeFiles/cmTC_01b9c.dir/cmake_device_link.o 
-Linking CUDA executable cmTC_01b9c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01b9c.dir/link.txt --verbose=1
-/usr/bin/g++    CMakeFiles/cmTC_01b9c.dir/main.cu.o CMakeFiles/cmTC_01b9c.dir/cmake_device_link.o -o cmTC_01b9c  -L"/usr/local/cuda/targets/x86_64-linux/lib/stubs" -L"/usr/local/cuda/targets/x86_64-linux/lib" -lcudadevrt -lcudart_static -lrt -lpthread -ldl
-make[1]: Leaving directory '/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_ae4e1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ae4e1.dir/build.make CMakeFiles/cmTC_ae4e1.dir/build
+make[1]: Entering directory '/home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp'
+Building CUDA object CMakeFiles/cmTC_ae4e1.dir/main.cu.o
+/usr/local/cuda/bin/nvcc     -x cu -c /home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp/main.cu -o CMakeFiles/cmTC_ae4e1.dir/main.cu.o
+Linking CUDA device code CMakeFiles/cmTC_ae4e1.dir/cmake_device_link.o
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae4e1.dir/dlink.txt --verbose=1
+/usr/local/cuda/bin/nvcc     -Xcompiler=-fPIC -Wno-deprecated-gpu-targets -shared -dlink CMakeFiles/cmTC_ae4e1.dir/main.cu.o -o CMakeFiles/cmTC_ae4e1.dir/cmake_device_link.o 
+Linking CUDA executable cmTC_ae4e1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae4e1.dir/link.txt --verbose=1
+/usr/bin/g++    CMakeFiles/cmTC_ae4e1.dir/main.cu.o CMakeFiles/cmTC_ae4e1.dir/cmake_device_link.o -o cmTC_ae4e1  -L"/usr/local/cuda/targets/x86_64-linux/lib/stubs" -L"/usr/local/cuda/targets/x86_64-linux/lib" -lcudadevrt -lcudart_static -lrt -lpthread -ldl
+make[1]: Leaving directory '/home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp'
 
 
 Detecting CUDA compiler ABI info compiled with the following output:
-Change Dir: /home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp
+Change Dir: /home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c34c8/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c34c8.dir/build.make CMakeFiles/cmTC_c34c8.dir/build
-make[1]: Entering directory '/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp'
-Building CUDA object CMakeFiles/cmTC_c34c8.dir/CMakeCUDACompilerABI.cu.o
-/usr/local/cuda/bin/nvcc     -x cu -c /usr/share/cmake-3.10/Modules/CMakeCUDACompilerABI.cu -o CMakeFiles/cmTC_c34c8.dir/CMakeCUDACompilerABI.cu.o
-Linking CUDA device code CMakeFiles/cmTC_c34c8.dir/cmake_device_link.o
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c34c8.dir/dlink.txt --verbose=1
-/usr/local/cuda/bin/nvcc     -Xcompiler=-fPIC -Wno-deprecated-gpu-targets -shared -dlink CMakeFiles/cmTC_c34c8.dir/CMakeCUDACompilerABI.cu.o -o CMakeFiles/cmTC_c34c8.dir/cmake_device_link.o 
-Linking CUDA executable cmTC_c34c8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c34c8.dir/link.txt --verbose=1
-/usr/bin/g++   -v CMakeFiles/cmTC_c34c8.dir/CMakeCUDACompilerABI.cu.o CMakeFiles/cmTC_c34c8.dir/cmake_device_link.o -o cmTC_c34c8  -L"/usr/local/cuda/targets/x86_64-linux/lib/stubs" -L"/usr/local/cuda/targets/x86_64-linux/lib" -lcudadevrt -lcudart_static -lrt -lpthread -ldl
+Run Build Command:"/usr/bin/make" "cmTC_38929/fast"
+/usr/bin/make -f CMakeFiles/cmTC_38929.dir/build.make CMakeFiles/cmTC_38929.dir/build
+make[1]: Entering directory '/home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp'
+Building CUDA object CMakeFiles/cmTC_38929.dir/CMakeCUDACompilerABI.cu.o
+/usr/local/cuda/bin/nvcc     -x cu -c /usr/share/cmake-3.10/Modules/CMakeCUDACompilerABI.cu -o CMakeFiles/cmTC_38929.dir/CMakeCUDACompilerABI.cu.o
+Linking CUDA device code CMakeFiles/cmTC_38929.dir/cmake_device_link.o
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38929.dir/dlink.txt --verbose=1
+/usr/local/cuda/bin/nvcc     -Xcompiler=-fPIC -Wno-deprecated-gpu-targets -shared -dlink CMakeFiles/cmTC_38929.dir/CMakeCUDACompilerABI.cu.o -o CMakeFiles/cmTC_38929.dir/cmake_device_link.o 
+Linking CUDA executable cmTC_38929
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38929.dir/link.txt --verbose=1
+/usr/bin/g++   -v CMakeFiles/cmTC_38929.dir/CMakeCUDACompilerABI.cu.o CMakeFiles/cmTC_38929.dir/cmake_device_link.o -o cmTC_38929  -L"/usr/local/cuda/targets/x86_64-linux/lib/stubs" -L"/usr/local/cuda/targets/x86_64-linux/lib" -lcudadevrt -lcudart_static -lrt -lpthread -ldl
 Using built-in specs.
 COLLECT_GCC=/usr/bin/g++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -815,27 +815,27 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/tbb/lib/intel64/gcc4.8/:/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/tbb/lib/intel64/gcc4.8/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c34c8' '-L/usr/local/cuda/targets/x86_64-linux/lib/stubs' '-L/usr/local/cuda/targets/x86_64-linux/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccAYkqdz.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c34c8 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/local/cuda/targets/x86_64-linux/lib/stubs -L/usr/local/cuda/targets/x86_64-linux/lib -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/tbb/lib/intel64/gcc4.8 -L/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/tbb/lib/intel64/gcc4.8 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_c34c8.dir/CMakeCUDACompilerABI.cu.o CMakeFiles/cmTC_c34c8.dir/cmake_device_link.o -lcudadevrt -lcudart_static -lrt -lpthread -ldl -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c34c8' '-L/usr/local/cuda/targets/x86_64-linux/lib/stubs' '-L/usr/local/cuda/targets/x86_64-linux/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_38929' '-L/usr/local/cuda/targets/x86_64-linux/lib/stubs' '-L/usr/local/cuda/targets/x86_64-linux/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxs3xSk.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_38929 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/local/cuda/targets/x86_64-linux/lib/stubs -L/usr/local/cuda/targets/x86_64-linux/lib -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/tbb/lib/intel64/gcc4.8 -L/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/tbb/lib/intel64/gcc4.8 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_38929.dir/CMakeCUDACompilerABI.cu.o CMakeFiles/cmTC_38929.dir/cmake_device_link.o -lcudadevrt -lcudart_static -lrt -lpthread -ldl -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_38929' '-L/usr/local/cuda/targets/x86_64-linux/lib/stubs' '-L/usr/local/cuda/targets/x86_64-linux/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp'
 
 
 Parsed CUDA implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_c34c8/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_c34c8.dir/build.make CMakeFiles/cmTC_c34c8.dir/build]
-  ignore line: [make[1]: Entering directory '/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp']
-  ignore line: [Building CUDA object CMakeFiles/cmTC_c34c8.dir/CMakeCUDACompilerABI.cu.o]
-  ignore line: [/usr/local/cuda/bin/nvcc     -x cu -c /usr/share/cmake-3.10/Modules/CMakeCUDACompilerABI.cu -o CMakeFiles/cmTC_c34c8.dir/CMakeCUDACompilerABI.cu.o]
-  ignore line: [Linking CUDA device code CMakeFiles/cmTC_c34c8.dir/cmake_device_link.o]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c34c8.dir/dlink.txt --verbose=1]
-  ignore line: [/usr/local/cuda/bin/nvcc     -Xcompiler=-fPIC -Wno-deprecated-gpu-targets -shared -dlink CMakeFiles/cmTC_c34c8.dir/CMakeCUDACompilerABI.cu.o -o CMakeFiles/cmTC_c34c8.dir/cmake_device_link.o ]
-  ignore line: [Linking CUDA executable cmTC_c34c8]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c34c8.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/g++   -v CMakeFiles/cmTC_c34c8.dir/CMakeCUDACompilerABI.cu.o CMakeFiles/cmTC_c34c8.dir/cmake_device_link.o -o cmTC_c34c8  -L"/usr/local/cuda/targets/x86_64-linux/lib/stubs" -L"/usr/local/cuda/targets/x86_64-linux/lib" -lcudadevrt -lcudart_static -lrt -lpthread -ldl]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_38929/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_38929.dir/build.make CMakeFiles/cmTC_38929.dir/build]
+  ignore line: [make[1]: Entering directory '/home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp']
+  ignore line: [Building CUDA object CMakeFiles/cmTC_38929.dir/CMakeCUDACompilerABI.cu.o]
+  ignore line: [/usr/local/cuda/bin/nvcc     -x cu -c /usr/share/cmake-3.10/Modules/CMakeCUDACompilerABI.cu -o CMakeFiles/cmTC_38929.dir/CMakeCUDACompilerABI.cu.o]
+  ignore line: [Linking CUDA device code CMakeFiles/cmTC_38929.dir/cmake_device_link.o]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38929.dir/dlink.txt --verbose=1]
+  ignore line: [/usr/local/cuda/bin/nvcc     -Xcompiler=-fPIC -Wno-deprecated-gpu-targets -shared -dlink CMakeFiles/cmTC_38929.dir/CMakeCUDACompilerABI.cu.o -o CMakeFiles/cmTC_38929.dir/cmake_device_link.o ]
+  ignore line: [Linking CUDA executable cmTC_38929]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38929.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/g++   -v CMakeFiles/cmTC_38929.dir/CMakeCUDACompilerABI.cu.o CMakeFiles/cmTC_38929.dir/cmake_device_link.o -o cmTC_38929  -L"/usr/local/cuda/targets/x86_64-linux/lib/stubs" -L"/usr/local/cuda/targets/x86_64-linux/lib" -lcudadevrt -lcudart_static -lrt -lpthread -ldl]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/g++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -847,13 +847,13 @@ Parsed CUDA implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/tbb/lib/intel64/gcc4.8/:/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/tbb/lib/intel64/gcc4.8/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c34c8' '-L/usr/local/cuda/targets/x86_64-linux/lib/stubs' '-L/usr/local/cuda/targets/x86_64-linux/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccAYkqdz.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c34c8 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/local/cuda/targets/x86_64-linux/lib/stubs -L/usr/local/cuda/targets/x86_64-linux/lib -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/tbb/lib/intel64/gcc4.8 -L/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/tbb/lib/intel64/gcc4.8 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_c34c8.dir/CMakeCUDACompilerABI.cu.o CMakeFiles/cmTC_c34c8.dir/cmake_device_link.o -lcudadevrt -lcudart_static -lrt -lpthread -ldl -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_38929' '-L/usr/local/cuda/targets/x86_64-linux/lib/stubs' '-L/usr/local/cuda/targets/x86_64-linux/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxs3xSk.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_38929 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/local/cuda/targets/x86_64-linux/lib/stubs -L/usr/local/cuda/targets/x86_64-linux/lib -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/tbb/lib/intel64/gcc4.8 -L/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/tbb/lib/intel64/gcc4.8 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_38929.dir/CMakeCUDACompilerABI.cu.o CMakeFiles/cmTC_38929.dir/cmake_device_link.o -lcudadevrt -lcudart_static -lrt -lpthread -ldl -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccAYkqdz.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccxs3xSk.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -871,7 +871,7 @@ Parsed CUDA implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_c34c8] ==> ignore
+    arg [cmTC_38929] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -887,8 +887,8 @@ Parsed CUDA implicit link information from above output:
     arg [-L/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/tbb/lib/intel64/gcc4.8] ==> dir [/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/tbb/lib/intel64/gcc4.8]
     arg [-L/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/tbb/lib/intel64/gcc4.8] ==> dir [/home/wkh/intel/sw_dev_tools/compilers_and_libraries_2020.1.219/linux/tbb/lib/intel64/gcc4.8]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_c34c8.dir/CMakeCUDACompilerABI.cu.o] ==> ignore
-    arg [CMakeFiles/cmTC_c34c8.dir/cmake_device_link.o] ==> ignore
+    arg [CMakeFiles/cmTC_38929.dir/CMakeCUDACompilerABI.cu.o] ==> ignore
+    arg [CMakeFiles/cmTC_38929.dir/cmake_device_link.o] ==> ignore
     arg [-lcudadevrt] ==> lib [cudadevrt]
     arg [-lcudart_static] ==> lib [cudart_static]
     arg [-lrt] ==> lib [rt]
@@ -921,30 +921,30 @@ Parsed CUDA implicit link information from above output:
 
 
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp
+Change Dir: /home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a636b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a636b.dir/build.make CMakeFiles/cmTC_a636b.dir/build
-make[1]: Entering directory '/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a636b.dir/CheckIncludeFile.c.o
-/usr/bin/cc   -fPIC    -o CMakeFiles/cmTC_a636b.dir/CheckIncludeFile.c.o   -c /home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_a636b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a636b.dir/link.txt --verbose=1
-/usr/bin/cc -fPIC     CMakeFiles/cmTC_a636b.dir/CheckIncludeFile.c.o  -o cmTC_a636b 
-make[1]: Leaving directory '/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_8d037/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8d037.dir/build.make CMakeFiles/cmTC_8d037.dir/build
+make[1]: Entering directory '/home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8d037.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIC    -o CMakeFiles/cmTC_8d037.dir/CheckIncludeFile.c.o   -c /home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8d037
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d037.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC     CMakeFiles/cmTC_8d037.dir/CheckIncludeFile.c.o  -o cmTC_8d037 
+make[1]: Leaving directory '/home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp
+Change Dir: /home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c3d4b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c3d4b.dir/build.make CMakeFiles/cmTC_c3d4b.dir/build
-make[1]: Entering directory '/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c3d4b.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_c3d4b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_c3d4b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3d4b.dir/link.txt --verbose=1
-/usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_c3d4b.dir/CheckFunctionExists.c.o  -o cmTC_c3d4b -lpthread 
-make[1]: Leaving directory '/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_e5c29/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e5c29.dir/build.make CMakeFiles/cmTC_e5c29.dir/build
+make[1]: Entering directory '/home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e5c29.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_e5c29.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e5c29
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5c29.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_e5c29.dir/CheckFunctionExists.c.o  -o cmTC_e5c29 -lpthread 
+make[1]: Leaving directory '/home/wkh/deep_learning/cuda_ex/CMakeFiles/CMakeTmp'
 
 

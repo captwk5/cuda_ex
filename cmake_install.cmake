@@ -1,4 +1,4 @@
-# Install script for directory: /home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex
+# Install script for directory: /home/wkh/deep_learning/cuda_ex
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/wkh/deep_learning/cuda_ex/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

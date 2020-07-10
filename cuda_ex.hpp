@@ -4,7 +4,10 @@
 #include <stdio.h>
 #include "cuda_runtime_api.h"
 
+#include <opencv2/opencv.hpp>
+
 using namespace std;
+using namespace cv;
 
 class Cuda_Computing{
 public:
@@ -12,9 +15,13 @@ public:
         cudaGetDeviceCount(&m_gpu_count);
     }
     void test();
+    int a = 3;
+
 private:
     int m_gpu_count = 0;
     cudaDeviceProp prop;
+
+    void cpuConvolution(int*** input, int*** output, int rows, int cols, int channels, vector<float> kernel);
 };
 
 template <class T>

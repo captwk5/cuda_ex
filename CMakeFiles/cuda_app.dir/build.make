@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex
+CMAKE_SOURCE_DIR = /home/wkh/deep_learning/cuda_ex
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex
+CMAKE_BINARY_DIR = /home/wkh/deep_learning/cuda_ex
 
 # Include any dependencies generated for this target.
 include CMakeFiles/cuda_app.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/cuda_app.dir/flags.make
 
 CMakeFiles/cuda_app.dir/main.cpp.o: CMakeFiles/cuda_app.dir/flags.make
 CMakeFiles/cuda_app.dir/main.cpp.o: main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cuda_app.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cuda_app.dir/main.cpp.o -c /home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wkh/deep_learning/cuda_ex/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cuda_app.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cuda_app.dir/main.cpp.o -c /home/wkh/deep_learning/cuda_ex/main.cpp
 
 CMakeFiles/cuda_app.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cuda_app.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/main.cpp > CMakeFiles/cuda_app.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wkh/deep_learning/cuda_ex/main.cpp > CMakeFiles/cuda_app.dir/main.cpp.i
 
 CMakeFiles/cuda_app.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cuda_app.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/main.cpp -o CMakeFiles/cuda_app.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wkh/deep_learning/cuda_ex/main.cpp -o CMakeFiles/cuda_app.dir/main.cpp.s
 
 CMakeFiles/cuda_app.dir/main.cpp.o.requires:
 
@@ -83,8 +83,8 @@ CMakeFiles/cuda_app.dir/main.cpp.o.provides.build: CMakeFiles/cuda_app.dir/main.
 
 CMakeFiles/cuda_app.dir/cuda_ex.cu.o: CMakeFiles/cuda_app.dir/flags.make
 CMakeFiles/cuda_app.dir/cuda_ex.cu.o: cuda_ex.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CUDA object CMakeFiles/cuda_app.dir/cuda_ex.cu.o"
-	/usr/local/cuda/bin/nvcc  $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -x cu -c /home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/cuda_ex.cu -o CMakeFiles/cuda_app.dir/cuda_ex.cu.o
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wkh/deep_learning/cuda_ex/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CUDA object CMakeFiles/cuda_app.dir/cuda_ex.cu.o"
+	/usr/local/cuda/bin/nvcc  $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -x cu -c /home/wkh/deep_learning/cuda_ex/cuda_ex.cu -o CMakeFiles/cuda_app.dir/cuda_ex.cu.o
 
 CMakeFiles/cuda_app.dir/cuda_ex.cu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/cuda_app.dir/cuda_ex.cu.i"
@@ -116,8 +116,57 @@ cuda_app_EXTERNAL_OBJECTS =
 CMakeFiles/cuda_app.dir/cmake_device_link.o: CMakeFiles/cuda_app.dir/main.cpp.o
 CMakeFiles/cuda_app.dir/cmake_device_link.o: CMakeFiles/cuda_app.dir/cuda_ex.cu.o
 CMakeFiles/cuda_app.dir/cmake_device_link.o: CMakeFiles/cuda_app.dir/build.make
+CMakeFiles/cuda_app.dir/cmake_device_link.o: /usr/local/lib/libopencv_gapi.so.4.2.0
+CMakeFiles/cuda_app.dir/cmake_device_link.o: /usr/local/lib/libopencv_stitching.so.4.2.0
+CMakeFiles/cuda_app.dir/cmake_device_link.o: /usr/local/lib/libopencv_aruco.so.4.2.0
+CMakeFiles/cuda_app.dir/cmake_device_link.o: /usr/local/lib/libopencv_bgsegm.so.4.2.0
+CMakeFiles/cuda_app.dir/cmake_device_link.o: /usr/local/lib/libopencv_bioinspired.so.4.2.0
+CMakeFiles/cuda_app.dir/cmake_device_link.o: /usr/local/lib/libopencv_ccalib.so.4.2.0
+CMakeFiles/cuda_app.dir/cmake_device_link.o: /usr/local/lib/libopencv_dnn_objdetect.so.4.2.0
+CMakeFiles/cuda_app.dir/cmake_device_link.o: /usr/local/lib/libopencv_dnn_superres.so.4.2.0
+CMakeFiles/cuda_app.dir/cmake_device_link.o: /usr/local/lib/libopencv_dpm.so.4.2.0
+CMakeFiles/cuda_app.dir/cmake_device_link.o: /usr/local/lib/libopencv_face.so.4.2.0
+CMakeFiles/cuda_app.dir/cmake_device_link.o: /usr/local/lib/libopencv_freetype.so.4.2.0
+CMakeFiles/cuda_app.dir/cmake_device_link.o: /usr/local/lib/libopencv_fuzzy.so.4.2.0
+CMakeFiles/cuda_app.dir/cmake_device_link.o: /usr/local/lib/libopencv_hdf.so.4.2.0
+CMakeFiles/cuda_app.dir/cmake_device_link.o: /usr/local/lib/libopencv_hfs.so.4.2.0
+CMakeFiles/cuda_app.dir/cmake_device_link.o: /usr/local/lib/libopencv_img_hash.so.4.2.0
+CMakeFiles/cuda_app.dir/cmake_device_link.o: /usr/local/lib/libopencv_line_descriptor.so.4.2.0
+CMakeFiles/cuda_app.dir/cmake_device_link.o: /usr/local/lib/libopencv_quality.so.4.2.0
+CMakeFiles/cuda_app.dir/cmake_device_link.o: /usr/local/lib/libopencv_reg.so.4.2.0
+CMakeFiles/cuda_app.dir/cmake_device_link.o: /usr/local/lib/libopencv_rgbd.so.4.2.0
+CMakeFiles/cuda_app.dir/cmake_device_link.o: /usr/local/lib/libopencv_saliency.so.4.2.0
+CMakeFiles/cuda_app.dir/cmake_device_link.o: /usr/local/lib/libopencv_stereo.so.4.2.0
+CMakeFiles/cuda_app.dir/cmake_device_link.o: /usr/local/lib/libopencv_structured_light.so.4.2.0
+CMakeFiles/cuda_app.dir/cmake_device_link.o: /usr/local/lib/libopencv_superres.so.4.2.0
+CMakeFiles/cuda_app.dir/cmake_device_link.o: /usr/local/lib/libopencv_surface_matching.so.4.2.0
+CMakeFiles/cuda_app.dir/cmake_device_link.o: /usr/local/lib/libopencv_tracking.so.4.2.0
+CMakeFiles/cuda_app.dir/cmake_device_link.o: /usr/local/lib/libopencv_videostab.so.4.2.0
+CMakeFiles/cuda_app.dir/cmake_device_link.o: /usr/local/lib/libopencv_xfeatures2d.so.4.2.0
+CMakeFiles/cuda_app.dir/cmake_device_link.o: /usr/local/lib/libopencv_xobjdetect.so.4.2.0
+CMakeFiles/cuda_app.dir/cmake_device_link.o: /usr/local/lib/libopencv_xphoto.so.4.2.0
+CMakeFiles/cuda_app.dir/cmake_device_link.o: /usr/local/lib/libopencv_shape.so.4.2.0
+CMakeFiles/cuda_app.dir/cmake_device_link.o: /usr/local/lib/libopencv_highgui.so.4.2.0
+CMakeFiles/cuda_app.dir/cmake_device_link.o: /usr/local/lib/libopencv_datasets.so.4.2.0
+CMakeFiles/cuda_app.dir/cmake_device_link.o: /usr/local/lib/libopencv_plot.so.4.2.0
+CMakeFiles/cuda_app.dir/cmake_device_link.o: /usr/local/lib/libopencv_text.so.4.2.0
+CMakeFiles/cuda_app.dir/cmake_device_link.o: /usr/local/lib/libopencv_dnn.so.4.2.0
+CMakeFiles/cuda_app.dir/cmake_device_link.o: /usr/local/lib/libopencv_ml.so.4.2.0
+CMakeFiles/cuda_app.dir/cmake_device_link.o: /usr/local/lib/libopencv_phase_unwrapping.so.4.2.0
+CMakeFiles/cuda_app.dir/cmake_device_link.o: /usr/local/lib/libopencv_optflow.so.4.2.0
+CMakeFiles/cuda_app.dir/cmake_device_link.o: /usr/local/lib/libopencv_ximgproc.so.4.2.0
+CMakeFiles/cuda_app.dir/cmake_device_link.o: /usr/local/lib/libopencv_video.so.4.2.0
+CMakeFiles/cuda_app.dir/cmake_device_link.o: /usr/local/lib/libopencv_videoio.so.4.2.0
+CMakeFiles/cuda_app.dir/cmake_device_link.o: /usr/local/lib/libopencv_imgcodecs.so.4.2.0
+CMakeFiles/cuda_app.dir/cmake_device_link.o: /usr/local/lib/libopencv_objdetect.so.4.2.0
+CMakeFiles/cuda_app.dir/cmake_device_link.o: /usr/local/lib/libopencv_calib3d.so.4.2.0
+CMakeFiles/cuda_app.dir/cmake_device_link.o: /usr/local/lib/libopencv_features2d.so.4.2.0
+CMakeFiles/cuda_app.dir/cmake_device_link.o: /usr/local/lib/libopencv_flann.so.4.2.0
+CMakeFiles/cuda_app.dir/cmake_device_link.o: /usr/local/lib/libopencv_photo.so.4.2.0
+CMakeFiles/cuda_app.dir/cmake_device_link.o: /usr/local/lib/libopencv_imgproc.so.4.2.0
+CMakeFiles/cuda_app.dir/cmake_device_link.o: /usr/local/lib/libopencv_core.so.4.2.0
 CMakeFiles/cuda_app.dir/cmake_device_link.o: CMakeFiles/cuda_app.dir/dlink.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CUDA device code CMakeFiles/cuda_app.dir/cmake_device_link.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wkh/deep_learning/cuda_ex/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CUDA device code CMakeFiles/cuda_app.dir/cmake_device_link.o"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cuda_app.dir/dlink.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -136,9 +185,58 @@ cuda_app_EXTERNAL_OBJECTS =
 cuda_app: CMakeFiles/cuda_app.dir/main.cpp.o
 cuda_app: CMakeFiles/cuda_app.dir/cuda_ex.cu.o
 cuda_app: CMakeFiles/cuda_app.dir/build.make
+cuda_app: /usr/local/lib/libopencv_gapi.so.4.2.0
+cuda_app: /usr/local/lib/libopencv_stitching.so.4.2.0
+cuda_app: /usr/local/lib/libopencv_aruco.so.4.2.0
+cuda_app: /usr/local/lib/libopencv_bgsegm.so.4.2.0
+cuda_app: /usr/local/lib/libopencv_bioinspired.so.4.2.0
+cuda_app: /usr/local/lib/libopencv_ccalib.so.4.2.0
+cuda_app: /usr/local/lib/libopencv_dnn_objdetect.so.4.2.0
+cuda_app: /usr/local/lib/libopencv_dnn_superres.so.4.2.0
+cuda_app: /usr/local/lib/libopencv_dpm.so.4.2.0
+cuda_app: /usr/local/lib/libopencv_face.so.4.2.0
+cuda_app: /usr/local/lib/libopencv_freetype.so.4.2.0
+cuda_app: /usr/local/lib/libopencv_fuzzy.so.4.2.0
+cuda_app: /usr/local/lib/libopencv_hdf.so.4.2.0
+cuda_app: /usr/local/lib/libopencv_hfs.so.4.2.0
+cuda_app: /usr/local/lib/libopencv_img_hash.so.4.2.0
+cuda_app: /usr/local/lib/libopencv_line_descriptor.so.4.2.0
+cuda_app: /usr/local/lib/libopencv_quality.so.4.2.0
+cuda_app: /usr/local/lib/libopencv_reg.so.4.2.0
+cuda_app: /usr/local/lib/libopencv_rgbd.so.4.2.0
+cuda_app: /usr/local/lib/libopencv_saliency.so.4.2.0
+cuda_app: /usr/local/lib/libopencv_stereo.so.4.2.0
+cuda_app: /usr/local/lib/libopencv_structured_light.so.4.2.0
+cuda_app: /usr/local/lib/libopencv_superres.so.4.2.0
+cuda_app: /usr/local/lib/libopencv_surface_matching.so.4.2.0
+cuda_app: /usr/local/lib/libopencv_tracking.so.4.2.0
+cuda_app: /usr/local/lib/libopencv_videostab.so.4.2.0
+cuda_app: /usr/local/lib/libopencv_xfeatures2d.so.4.2.0
+cuda_app: /usr/local/lib/libopencv_xobjdetect.so.4.2.0
+cuda_app: /usr/local/lib/libopencv_xphoto.so.4.2.0
+cuda_app: /usr/local/lib/libopencv_shape.so.4.2.0
+cuda_app: /usr/local/lib/libopencv_highgui.so.4.2.0
+cuda_app: /usr/local/lib/libopencv_datasets.so.4.2.0
+cuda_app: /usr/local/lib/libopencv_plot.so.4.2.0
+cuda_app: /usr/local/lib/libopencv_text.so.4.2.0
+cuda_app: /usr/local/lib/libopencv_dnn.so.4.2.0
+cuda_app: /usr/local/lib/libopencv_ml.so.4.2.0
+cuda_app: /usr/local/lib/libopencv_phase_unwrapping.so.4.2.0
+cuda_app: /usr/local/lib/libopencv_optflow.so.4.2.0
+cuda_app: /usr/local/lib/libopencv_ximgproc.so.4.2.0
+cuda_app: /usr/local/lib/libopencv_video.so.4.2.0
+cuda_app: /usr/local/lib/libopencv_videoio.so.4.2.0
+cuda_app: /usr/local/lib/libopencv_imgcodecs.so.4.2.0
+cuda_app: /usr/local/lib/libopencv_objdetect.so.4.2.0
+cuda_app: /usr/local/lib/libopencv_calib3d.so.4.2.0
+cuda_app: /usr/local/lib/libopencv_features2d.so.4.2.0
+cuda_app: /usr/local/lib/libopencv_flann.so.4.2.0
+cuda_app: /usr/local/lib/libopencv_photo.so.4.2.0
+cuda_app: /usr/local/lib/libopencv_imgproc.so.4.2.0
+cuda_app: /usr/local/lib/libopencv_core.so.4.2.0
 cuda_app: CMakeFiles/cuda_app.dir/cmake_device_link.o
 cuda_app: CMakeFiles/cuda_app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable cuda_app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wkh/deep_learning/cuda_ex/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable cuda_app"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cuda_app.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -156,6 +254,6 @@ CMakeFiles/cuda_app.dir/clean:
 .PHONY : CMakeFiles/cuda_app.dir/clean
 
 CMakeFiles/cuda_app.dir/depend:
-	cd /home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex /home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex /home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex /home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex /home/wkh/deep_learning/fl_alexnet/alexnet_cpp/cuda_ex/CMakeFiles/cuda_app.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/wkh/deep_learning/cuda_ex && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wkh/deep_learning/cuda_ex /home/wkh/deep_learning/cuda_ex /home/wkh/deep_learning/cuda_ex /home/wkh/deep_learning/cuda_ex /home/wkh/deep_learning/cuda_ex/CMakeFiles/cuda_app.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/cuda_app.dir/depend
 

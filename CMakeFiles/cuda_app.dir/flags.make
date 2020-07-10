@@ -7,11 +7,11 @@ CUDA_FLAGS =   -std=c++11
 
 CUDA_DEFINES = 
 
-CUDA_INCLUDES = -I/usr/local/cuda/include 
+CUDA_INCLUDES = -I/usr/local/cuda/include -isystem=/usr/local/include/opencv4 
 
 CXX_FLAGS =  
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/local/cuda/include 
+CXX_INCLUDES = -I/usr/local/cuda/include -isystem /usr/local/include/opencv4 
 
